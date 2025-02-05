@@ -36,7 +36,7 @@
         "Grew organization to 25+ professionals across strategy, UX/UI, development, and architecture",
         "Built high-retention technical teams (<10% turnover) delivering enterprise solutions focused on headless architecture and accessibility",
         "Established development standards for multi-lingual and WCAG-compliant implementations",
-        "Pioneered AI integration and headless architecture solutions improving client performance by 30%"
+        "Pivoted agency to exclusively headless architecture in 2020, implementing Directus (self-hosted) and Sanity (cloud) CMS"
       ]
     },
     {
@@ -121,6 +121,7 @@
       "endDate": "2024-02",
       "description": "Built AI-powered tool that transforms project descriptions into personalized questionnaires for detailed project briefs",
       "link": "https://scopecraft.okam.dev",
+      "isActive": true,
       "highlights": [
         "Developed complete solution in one day using Vercel's v0 and Cursor for AI-assisted development",
         "Created dual-purpose tool serving as both lead generation platform and AI development learning resource",
@@ -133,6 +134,8 @@
       "startDate": "2024-09",
       "endDate": "2024-12",
       "description": "Architected open-source Directus module solution for dynamic form management using SurveyJS",
+      "link": "https://github.com/OKAMca/directus-surveyjs",
+      "isActive": true,
       "highlights": [
         "Designed architecture for integrating SurveyJS Creator into Directus CMS based on business requirements",
         "Created implementation plan for comprehensive form management system with multi-language support",
@@ -145,7 +148,8 @@
       "name": "AI-Augmented CMS Workflows",
       "startDate": "2024-06",
       "endDate": "2025-02",
-      "description": "Built AI-powered automation tools to enhance content management workflows using @web Windmill platform",
+      "isActive": true,
+      "description": "Built AI-powered automation tools to enhance content management workflows using Windmill and N8N",
       "highlights": [
         "Developed AI agents to automate content migration and enhancement tasks",
         "Migrated 2,000+ pages across two enterprise projects",
@@ -157,6 +161,7 @@
       "name": "Remote Development Infrastructure",
       "startDate": "2020-03",
       "endDate": "2020-12",
+      "isActive": true,
       "description": "Pioneered secure remote development infrastructure pre-dating cloud alternatives",
       "highlights": [
         "Architected containerized development environments using Docker and Lando",
