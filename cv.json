@@ -31,25 +31,12 @@
       "position": "Co-Founder & Technologies Lead",
       "startDate": "2010-12",
       "endDate": "2025-02",
-      "description": "Founded and scaled a technology consultancy delivering enterprise solutions across North America",
+      "description": "Founded and scaled a technology consultancy delivering enterprise solutions across North America.",
       "highlights": [
         "Grew organization to 25+ professionals across strategy, UX/UI, development, and architecture",
         "Built high-retention technical teams (<10% turnover) delivering enterprise solutions focused on headless architecture and accessibility",
         "Established development standards for multi-lingual and WCAG-compliant implementations",
-        "Pivoted agency to exclusively headless architecture in 2020, implementing Directus (self-hosted) and Sanity (cloud) CMS"
-      ]
-    },
-    {
-      "name": "PSSPRT Inc.",
-      "position": "Chief Technology Officer",
-      "startDate": "2018-01",
-      "endDate": "2019-12",
-      "description": "Led technical strategy and development of innovative mobile platform connecting craft breweries with consumers through digital passport system",
-      "highlights": [
-        "Architected mobile application enabling QR-based redemption of craft beer samples at partner microbreweries",
-        "Developed white-label version of platform licensed to events industry in US market",
-        "Built scalable backend supporting multi-tenant deployment and custom branding",
-        "Successfully positioned technology for acquisition by events enterprise"
+        "Pivoted agency to exclusively headless architecture in 2020, implementing Directus (self-hosted) and Sanity (cloud) CMS for multiple clients"
       ]
     },
     {
@@ -57,7 +44,7 @@
       "position": "Chief Technology Officer",
       "startDate": "2016-01",
       "endDate": "2019-01",
-      "description": "Led technical strategy and development of sports management platform from concept to successful acquisition",
+      "description": "Led technical strategy and development of sports management platform from concept to successful acquisition.",
       "highlights": [
         "Architected and implemented offline-first mobile application using Ionic Framework",
         "Designed Redux-based state management enabling robust offline data synchronization",
@@ -119,7 +106,7 @@
       "name": "ScopeCraft",
       "startDate": "2024-02",
       "endDate": "2024-02",
-      "description": "AI-powered tool that transforms project briefs into personalized questionnaires",
+      "description": "AI-powered tool that transforms project briefs into personalized questionnaires.",
       "link": "https://scopecraft.okam.dev",
       "isActive": true,
       "highlights": [
@@ -133,14 +120,13 @@
       "name": "Directus SurveyJS Integration",
       "startDate": "2024-09",
       "endDate": "2024-12",
-      "description": "Open-source module enabling dynamic form management in Directus CMS",
+      "description": "Open-source module enabling dynamic form management in Directus CMS.",
       "link": "https://github.com/OKAMca/directus-surveyjs",
       "isActive": true,
       "highlights": [
         "SurveyJS Creator integration",
         "Multi-language form system",
-        "Conditional email notifications",
-        "Published on NPM registry"
+        "Conditional email notifications"
       ]
     },
     {
@@ -148,7 +134,7 @@
       "startDate": "2024-06",
       "endDate": "2025-02",
       "isActive": true,
-      "description": "Automation suite for content management using AI-powered tools",
+      "description": "Automation suite for content management using AI-powered tools.",
       "highlights": [
         "2,000+ pages migrated",
         "80% reduction in manual work",
@@ -161,7 +147,7 @@
       "startDate": "2020-03",
       "endDate": "2020-12",
       "isActive": false,
-      "description": "Secure containerized development environment for distributed teams",
+      "description": "Secure containerized development environment for distributed teams.",
       "highlights": [
         "Docker + Lando containers",
         "Zero-trust network with Tailscale",
@@ -173,7 +159,7 @@
       "name": "Enterprise Chatbot Platform",
       "startDate": "2018-01",
       "endDate": "2022-12",
-      "description": "Conversational AI platform for enterprise client services",
+      "description": "Conversational AI platform for enterprise client services.",
       "highlights": [
         "IBM Watson + Microsoft Bot Framework",
         "Transportation + Insurance sectors",
