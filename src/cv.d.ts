@@ -42,10 +42,10 @@ interface Profiles {
 interface Work {
   name: string
   position: string
-  url: string
+  url?: string
   startDate: DateStr
   endDate: DateStr | null
-  summary: string
+  description: string
   highlights: Highlight
 }
 

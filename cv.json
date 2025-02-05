@@ -1,275 +1,240 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
-    "location": {
-      "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+    "name": "David Paquet Pitts",
+    "label": "",
+    "email": "david@okam.ca",
+    "phone": "+1 514 717 5663",
+    "url": "https://okam.ca",
+    "headline": "Technology Leader & Solution Architect",
+    "image": "me.jpg",
+    "location": "Montreal, QC, Canada",
+    "summary": "Technology leader with 20+ years of experience in web development, enterprise solutions, and team leadership. Proven track record of building high-retention technical teams and delivering innovative solutions.",
+    "customFields": [],
+    "picture": {
+      "url": "me.jpg",
+      "alt": "David Paquet Pitts"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "url": "https://www.linkedin.com/in/davidpaquet/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "url": "https://github.com/davidpp"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "name": "OKAM",
+      "position": "Co-Founder & Technologies Lead",
+      "startDate": "2010-12",
+      "endDate": "2025-02",
+      "description": "Founded and scaled a technology consultancy delivering enterprise solutions across North America",
       "highlights": [
-        "Started the company"
+        "Grew organization to 25+ professionals across strategy, UX/UI, development, and architecture",
+        "Built high-retention technical teams (<10% turnover) delivering enterprise solutions focused on headless architecture and accessibility",
+        "Established development standards for multi-lingual and WCAG-compliant implementations",
+        "Pioneered AI integration and headless architecture solutions improving client performance by 30%"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "PSSPRT Inc.",
+      "position": "Chief Technology Officer",
+      "startDate": "2018-01",
+      "endDate": "2019-12",
+      "description": "Led technical strategy and development of innovative mobile platform connecting craft breweries with consumers through digital passport system",
       "highlights": [
-        "Started the company"
+        "Architected mobile application enabling QR-based redemption of craft beer samples at partner microbreweries",
+        "Developed white-label version of platform licensed to events industry in US market",
+        "Built scalable backend supporting multi-tenant deployment and custom branding",
+        "Successfully positioned technology for acquisition by events enterprise"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "HiSports",
+      "position": "Chief Technology Officer",
+      "startDate": "2016-01",
+      "endDate": "2019-01",
+      "description": "Led technical strategy and development of sports management platform from concept to successful acquisition",
       "highlights": [
-        "Started the company"
+        "Architected and implemented offline-first mobile application using Ionic Framework",
+        "Designed Redux-based state management enabling robust offline data synchronization",
+        "Built real-time scoring and statistics tracking system with event-sourcing architecture",
+        "Successfully positioned platform for acquisition by sports technology company in 2019"
+      ]
+    },
+    {
+      "name": "Desjardins Financial Group",
+      "position": "Web Analytics Technical Team Lead",
+      "startDate": "2011-01",
+      "endDate": "2013-12",
+      "description": "Led technical implementation of Google Analytics Premium across enterprise digital properties",
+      "highlights": [
+        "Spearheaded one of Canada's first Google Analytics Premium implementations across 20 initiatives in $500M+ program",
+        "Developed and documented integration library for standardized analytics implementation",
+        "Collaborated with BI team to ensure data architecture met enterprise dashboarding requirements",
+        "Led technical specifications and implementation standards pre-Google Tag Manager era"
+      ]
+    },
+    {
+      "name": "National Bank of Canada",
+      "position": "Various Roles",
+      "startDate": "2002-01",
+      "endDate": "2010-12",
+      "description": "Progressed through multiple roles in web expertise and intranet services, focusing on technical leadership and analytics",
+      "highlights": [
+        "Senior Analyst – Web Expertise Center (2008-2010)",
+        "Analyst – Web Expertise Center (2006-2008)",
+        "Technical Advisor – Web Expertise Center (2002-2006)"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "education": [
+    {
+      "institution": "University of Montreal",
+      "area": "Computer Science",
+      "studyType": "Certificate (30 credits)",
+      "startDate": "2006-01",
+      "endDate": "2008-12"
+    },
+    {
+      "institution": "CDI Collège",
+      "area": "System Administration",
+      "studyType": "Equivalent to Associate Degree",
+      "startDate": "2002-01",
+      "endDate": "2002-10"
+    },
+    {
+      "institution": "Ahuntsic College",
+      "area": "Software Development",
+      "studyType": "Equivalent to Associate Degree (Not Completed)",
+      "startDate": "2001-01",
+      "endDate": "2001-12"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ScopeCraft",
+      "startDate": "2024-02",
+      "endDate": "2024-02",
+      "description": "Built AI-powered tool that transforms project descriptions into personalized questionnaires for detailed project briefs",
+      "link": "https://scopecraft.okam.dev",
+      "highlights": [
+        "Developed complete solution in one day using Vercel's v0 and Cursor for AI-assisted development",
+        "Created dual-purpose tool serving as both lead generation platform and AI development learning resource",
+        "Automated brief generation process, improving project scoping efficiency",
+        "Established practical example for training team members in AI-assisted development practices"
+      ]
+    },
+    {
+      "name": "Directus SurveyJS Integration",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "description": "Architected open-source Directus module solution for dynamic form management using SurveyJS",
+      "highlights": [
+        "Designed architecture for integrating SurveyJS Creator into Directus CMS based on business requirements",
+        "Created implementation plan for comprehensive form management system with multi-language support",
+        "Specified notification system architecture with conditional email alerts and variable templating",
+        "Led team in developing and publishing open-source module to NPM with extensive documentation",
+        "Established deployment workflows for form submissions and data mapping"
+      ]
+    },
+    {
+      "name": "AI-Augmented CMS Workflows",
+      "startDate": "2024-06",
+      "endDate": "2025-02",
+      "description": "Built AI-powered automation tools to enhance content management workflows using @web Windmill platform",
+      "highlights": [
+        "Developed AI agents to automate content migration and enhancement tasks",
+        "Migrated 2,000+ pages across two enterprise projects",
+        "Implemented automated SEO metadata generation reducing manual work by 80%",
+        "Reduced migration timeline by 50% through AI-assisted content processing"
+      ]
+    },
+    {
+      "name": "Remote Development Infrastructure",
+      "startDate": "2020-03",
+      "endDate": "2020-12",
+      "description": "Pioneered secure remote development infrastructure pre-dating cloud alternatives",
+      "highlights": [
+        "Architected containerized development environments using Docker and Lando",
+        "Implemented zero-trust network access using Tailscale",
+        "Created automated local development setup with Traefik for internal routing",
+        "Enabled seamless remote development experience for distributed team"
+      ]
+    },
+    {
+      "name": "Enterprise Chatbot Platform",
+      "startDate": "2018-01",
+      "endDate": "2022-12",
+      "description": "Developed conversational AI solutions for enterprise clients",
+      "highlights": [
+        "Architected chatbots using multiple platforms, such as IBM Watson and Microsoft Bot Framework",
+        "Implemented solutions for transportation and insurance sectors",
+        "Integration of handover to human agents"
+      ]
+    }
+  ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
+      "name": "Software Development",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL"
       ]
     },
     {
-      "name": "CSS",
-      "level": "Master",
+      "name": "CMS Platforms",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Directus",
+        "Sanity",
+        "WordPress"
       ]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
+      "name": "AI & Integration",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "OpenAI API",
+        "Vercel AI SDK",
+        "Windmill"
       ]
     },
     {
-      "name": "Tailwind",
-      "level": "Avanzado",
+      "name": "Technical Leadership",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Solution Architecture",
+        "Technical Strategy",
+        "Enterprise Integration"
       ]
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado",
+      "name": "Infrastructure & DevOps",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Docker",
+        "AWS",
+        "Cloudflare"
       ]
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
+      "name": "Data Architecture",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Content Modeling",
+        "Information Architecture",
+        "API Schema Design"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
-    },
-    {
       "language": "English",
-      "fluency": "Advanced"
-    }
-  ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
-      ],
-      "url": "https://mars.codes"
+      "fluency": "Fluent"
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "language": "French",
+      "fluency": "Native speaker"
     }
   ]
-}
+} 

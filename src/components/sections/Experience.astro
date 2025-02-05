@@ -4,11 +4,11 @@ import Section from "../Section.astro"
 import { work } from "@cv"
 ---
 
-<Section title="Experiencia laboral">
+<Section title="Work Experience">
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({ name, startDate, endDate, position, description, highlights, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -19,9 +19,13 @@ import { work } from "@cv"
                 <header>
                   <div>
                     <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
-                      </a>
+                      {url ? (
+                        <a href={url} title={`View ${name}`} target="_blank">
+                          {name}
+                        </a>
+                      ) : (
+                        name
+                      )}
                     </h3>
                     <h4>{position}</h4>
                   </div>
@@ -42,7 +46,14 @@ import { work } from "@cv"
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  <p>{description}</p>
+                  {highlights && highlights.length > 0 && (
+                    <ul class="highlights">
+                      {highlights.map((highlight) => (
+                        <li>{highlight}</li>
+                      ))}
+                    </ul>
+                  )}
                 </footer>
               </article>
             </li>
@@ -90,6 +101,21 @@ import { work } from "@cv"
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
+  }
+
+  .highlights {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .highlights li {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-left: 16px;
+    list-style-type: disc;
   }
 
   [data-title]:hover:after {
