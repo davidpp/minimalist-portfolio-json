@@ -1,26 +1,20 @@
 ---
-import GitHub from "@/icons/GitHub.astro"
 import Section from "../Section.astro"
-
-import { projects } from "@cv"
-import Next from "@/icons/next.astro"
-import Html from "@/icons/html.astro"
 import Link from "@/icons/Link.astro"
+import { projects } from "@cv"
 ---
 
 <Section title="Projects">
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, link }) => {
+        ({ link, description, highlights, name, isActive }) => {
           return (
             <li>
               <article>
                 <header>
                   <h3>
-                    <a href={url} target="_blank" title={`View project ${name}`}>
-                      {name}
-                    </a>
+                    {name}
                     {isActive && <span>•</span>}
                     {link && (
                       <a
