@@ -119,29 +119,28 @@
       "name": "ScopeCraft",
       "startDate": "2024-02",
       "endDate": "2024-02",
-      "description": "Built AI-powered tool that transforms project descriptions into personalized questionnaires for detailed project briefs",
+      "description": "AI-powered tool that transforms project briefs into personalized questionnaires",
       "link": "https://scopecraft.okam.dev",
       "isActive": true,
       "highlights": [
-        "Developed complete solution in one day using Vercel's v0 and Cursor for AI-assisted development",
-        "Created dual-purpose tool serving as both lead generation platform and AI development learning resource",
-        "Automated brief generation process, improving project scoping efficiency",
-        "Established practical example for training team members in AI-assisted development practices"
+        "Built in one day with Vercel's v0",
+        "Lead generation + AI learning tool",
+        "Automated project scoping process",
+        "AI development training resource"
       ]
     },
     {
       "name": "Directus SurveyJS Integration",
       "startDate": "2024-09",
       "endDate": "2024-12",
-      "description": "Architected open-source Directus module solution for dynamic form management using SurveyJS",
+      "description": "Open-source module enabling dynamic form management in Directus CMS",
       "link": "https://github.com/OKAMca/directus-surveyjs",
       "isActive": true,
       "highlights": [
-        "Designed architecture for integrating SurveyJS Creator into Directus CMS based on business requirements",
-        "Created implementation plan for comprehensive form management system with multi-language support",
-        "Specified notification system architecture with conditional email alerts and variable templating",
-        "Led team in developing and publishing open-source module to NPM with extensive documentation",
-        "Established deployment workflows for form submissions and data mapping"
+        "SurveyJS Creator integration",
+        "Multi-language form system",
+        "Conditional email notifications",
+        "Published on NPM registry"
       ]
     },
     {
@@ -149,36 +148,36 @@
       "startDate": "2024-06",
       "endDate": "2025-02",
       "isActive": true,
-      "description": "Built AI-powered automation tools to enhance content management workflows using Windmill and N8N",
+      "description": "Automation suite for content management using AI-powered tools",
       "highlights": [
-        "Developed AI agents to automate content migration and enhancement tasks",
-        "Migrated 2,000+ pages across two enterprise projects",
-        "Implemented automated SEO metadata generation reducing manual work by 80%",
-        "Reduced migration timeline by 50% through AI-assisted content processing"
+        "2,000+ pages migrated",
+        "80% reduction in manual work",
+        "50% faster migration timeline",
+        "Automated SEO metadata"
       ]
     },
     {
       "name": "Remote Development Infrastructure",
       "startDate": "2020-03",
       "endDate": "2020-12",
-      "isActive": true,
-      "description": "Pioneered secure remote development infrastructure pre-dating cloud alternatives",
+      "isActive": false,
+      "description": "Secure containerized development environment for distributed teams",
       "highlights": [
-        "Architected containerized development environments using Docker and Lando",
-        "Implemented zero-trust network access using Tailscale",
-        "Created automated local development setup with Traefik for internal routing",
-        "Enabled seamless remote development experience for distributed team"
+        "Docker + Lando containers",
+        "Zero-trust network with Tailscale",
+        "Traefik for internal routing",
+        "Seamless remote development"
       ]
     },
     {
       "name": "Enterprise Chatbot Platform",
       "startDate": "2018-01",
       "endDate": "2022-12",
-      "description": "Developed conversational AI solutions for enterprise clients",
+      "description": "Conversational AI platform for enterprise client services",
       "highlights": [
-        "Architected chatbots using multiple platforms, such as IBM Watson and Microsoft Bot Framework",
-        "Implemented solutions for transportation and insurance sectors",
-        "Integration of handover to human agents"
+        "IBM Watson + Microsoft Bot Framework",
+        "Transportation + Insurance sectors",
+        "Human agent handover system"
       ]
     }
   ],
