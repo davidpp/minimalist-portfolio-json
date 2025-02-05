@@ -1,13 +1,18 @@
 {
   "basics": {
     "name": "David Paquet Pitts",
-    "label": "",
+    "label": "Technical Leadership & Solutions",
     "email": "david@okam.ca",
-    "phone": "+1 514 717 5663",
-    "url": "https://okam.ca",
-    "headline": "Technology Leader & Solution Architect",
+    "url": "https://davidpp.com",
+    "headline": "Technology & Solutions",
     "image": "me.jpg",
-    "location": "Montreal, QC, Canada",
+    "location": {
+      "city": "Montreal",
+      "region": "QC, Canada",
+      "address": "",
+      "postalCode": "",
+      "countryCode": "CA"
+    },
     "summary": "Technology leader with 20+ years of experience in web development, enterprise solutions, and team leadership. Proven track record of building high-retention technical teams and delivering innovative solutions.",
     "customFields": [],
     "picture": {
@@ -28,7 +33,7 @@
   "work": [
     {
       "name": "OKAM",
-      "position": "Co-Founder & Technologies Lead",
+      "position": "Co-Founder & CTO",
       "startDate": "2010-12",
       "endDate": "2025-02",
       "description": "Founded and scaled a technology consultancy delivering enterprise solutions across North America.",
@@ -70,11 +75,11 @@
       "position": "Various Roles",
       "startDate": "2002-01",
       "endDate": "2010-12",
-      "description": "Progressed through multiple roles in web expertise and intranet services, focusing on technical leadership and analytics",
+      "description": "Implemented technical initiatives across web and intranet services, focusing on enterprise collaboration and identity management.",
       "highlights": [
-        "Senior Analyst – Web Expertise Center (2008-2010)",
-        "Analyst – Web Expertise Center (2006-2008)",
-        "Technical Advisor – Web Expertise Center (2002-2006)"
+        "Developed standardized project estimation framework reducing estimation delay by 40%",
+        "Architected and implemented extranet authentication system serving 3,500+ external users",
+        "Managed enterprise directory services (LDAP) and BlackBerry infrastructure for 150+ executives"
       ]
     }
   ],
