@@ -2,7 +2,7 @@
 import 'hotkeypad/reset.css'
 import 'hotkeypad/index.css'
 import { type SocialIcon } from "@/types"
-import { basics } from "@cv"
+import { basics, projects } from "@cv"
 
 const { profiles } = basics
 
@@ -43,6 +43,22 @@ const SOCIAL_ICONS: SocialIcon = {
 `
 }
 
+const LINK_ICON = `<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  style="margin-right: 8px"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>`
+
 const profilesInfo = profiles.map(({ network, url }) => {
   const icon = SOCIAL_ICONS[network]
   const firstLetter = network[0].toUpperCase()
@@ -56,6 +72,19 @@ const profilesInfo = profiles.map(({ network, url }) => {
     hotkey: `ctrl+${firstLetter}`
   }
 })
+
+const projectsInfo = projects
+  .filter(project => project.link)
+  .map((project, index) => {
+    return {
+      id: `project-${index}`,
+      section: "Projects",
+      title: project.name,
+      url: project.link,
+      icon: LINK_ICON,
+      hotkey: `ctrl+${index + 1}`
+    }
+  })
 ---
 
 <footer id="normal-footer" class="no-print">
@@ -85,7 +114,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 <div
   id="hotkeypad"
   data-placeholder="Search command"
-  data-info={JSON.stringify(profilesInfo)}
+  data-info={JSON.stringify([...profilesInfo, ...projectsInfo])}
 >
 </div>
 
